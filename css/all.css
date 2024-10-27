@@ -1,0 +1,339 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+    
+}
+/* header */
+.header{
+    height: 102px;
+}
+.header .link{
+    display: flex;
+    justify-content: flex-end;
+    padding:4px 25% 0;
+    background: #F6F6F8;
+}
+
+.header .fb-h3{
+    color: #4267B2;
+    padding-right: 12px;
+    border-right:1px solid #CCCCCC;
+    margin-right: 12px;
+    text-decoration: none;
+}
+
+.header .x-h3{
+    color: #1DA1F2;
+    text-decoration: none;
+}
+/* menu */
+.header .menu{
+    display: flex;
+    justify-content: space-between;
+    padding:0 25%;
+}
+.header .menu img{
+    width: 150px;
+    height: 36px;
+    display: block;
+    margin-top: 21px;
+}
+.header .menu ul{
+    display: flex;
+}
+.header .menu li{
+    text-align: center;
+}
+.header .menu li a{
+    font-family: Microsoft JhengHei UI;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    text-decoration: none;
+    margin-right: 42px;
+    color: #00251A;
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding:26px 0;
+    border-width: 4px 40px;
+    border-bottom: solid white;  
+}
+.header .menu li a:hover{
+    cursor: pointer;
+    border-width: 4px 40px;
+    border-bottom: solid #00CC99;
+}
+/* dropdown-menu */
+.header .menu li ul{
+    display: none;
+    background: #fff;
+}
+.header .menu li ul li a{
+    padding:0;
+}
+.header .menu li ul.active{
+    display: block;
+}
+/* content */
+.container{
+    
+}
+.container .swiper{
+    margin-bottom: 60px;
+    width: 1903px;
+    height: 390px;
+}
+/* slide change image */
+.container .swiper .slide1{
+    background-image: url("../images/header_background.png");
+}
+.container .swiper .slide2{
+    background-image: url("../images/header_background2.png");
+    background-repeat: no-repeat;
+    background-size: 1920px 1080px;
+}
+.container .swiper .slide3{
+    background-image: url("../images/header_background3.png");
+    background-repeat: no-repeat;
+}
+.container .swiper h2{
+    font-family: Microsoft JhengHei UI;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43.2px;
+    text-align: left;
+    padding:152px 25%;
+    background-image:url("../images/Rectangle.png");
+}
+.container .lessonGroup{
+    margin-bottom: 60px;
+}
+
+.container .lessonGroup .lesUl{
+    padding: 0 20%;
+    display: flex;
+    gap: 30px;
+}
+.container .lessonGroup .lesUl li{
+    width: 310px;
+    height: 353px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    padding:0 20px;
+}
+
+.container .lessonGroup .jQuery img{
+    width: 294px;
+    height: 66px;
+    margin-top: 68px;
+}
+.container .lessonGroup li h3{
+    font-weight: bold;
+    margin: 11px 0;
+    font-family: Microsoft JhengHei UI;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+}
+.container .lessonGroup li p{
+    font-family: Microsoft JhengHei UI;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+/* jQuery */
+.container .lessonGroup .jQuery ul{
+    display: block;
+    list-style-type: disc;
+    padding-left: 25px;
+}
+.container .lessonGroup .jQuery p{
+    display: block;
+}
+.container .lessonGroup .jQuery li{
+    width: 100%;
+    height: 100%;
+    box-shadow: none;
+    gap:0;
+    padding:0;
+    font-family: Microsoft JhengHei UI;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    list-style-type: disc;
+    list-style-position: inside;
+}
+.different{
+    margin:0 30% 60px;
+}
+.different h2{
+    font-weight: bold;
+    font-family: Microsoft JhengHei UI;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+    text-align: left;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.different table{
+    width: 100%;
+}
+.different tr{
+    border:1px solid #CCCCCC;
+    border-left: none;border-right: none;
+}
+.different th,td{
+    font-family: Microsoft JhengHei UI;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24px;
+    text-align: left;
+    font-weight: bold;
+    padding: 6px 1%;
+    width: 24%;
+}
+.different td{
+    font-weight: 400;
+}
+.different span{
+    color: #00CC99;
+}
+.resign{
+    background: linear-gradient(180deg, #E4FFF8 0%, #A2DDCE 100%);
+}
+.resign h2{
+    font-family: Microsoft JhengHei UI;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+    text-align: center;
+}
+
+/* form */
+.resign form{
+    padding: 0 30%;
+    
+}
+.resign form .resignDiv{
+    display: flex;
+    gap: 30px;
+}
+
+.resign form .remarkDiv textarea{
+    width: 350px;
+    height: 205px;
+}
+.resign form .resignDiv label{
+    font-family: Microsoft JhengHei UI;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+    text-align: left;
+    margin-bottom: 8px;
+    display: block;
+}
+.resign form  .resignDiv input{
+    width: 351px;
+    height: 38px;
+    margin-bottom: 16px;
+    border-radius: 3px;
+    border:1px solid #AAAAAA;
+    display: block;
+}
+.submit{
+    background: #000;
+    color: white;
+    margin: 0 40%;
+    width: 159px;
+    height: 38px;
+    margin-bottom: 36px;
+}
+.submit:hover{
+    background: blue;
+    color: white;
+}
+.footer{
+    padding:22px 25%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer li{
+    font-family: Microsoft JhengHei UI;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+
+}
+.footer li a{
+    font-family: Microsoft JhengHei UI;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;    
+    color: #00CC99;
+    text-decoration: none;
+}
+/* return to Top */
+.returnTop img{
+    width: 75px;
+    height: 75px;
+    position:fixed;
+    right: 1em;
+    bottom: 1em;
+    cursor: pointer;
+}

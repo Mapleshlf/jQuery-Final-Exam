@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- swiper CSS -->
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="css/lightbox.css">
+    <link rel="stylesheet" href="css/all.css">
+</head>
+<body>
+    <div class="header">
+        <div class="link">
+            <a href="#" class="fb-h3"><img src="images/facebook_icon.png" alt="FB-Icon">粉絲團</a>
+            <a href="#" class="x-h3"><img src="images/twitter_icon.png" alt="X-Icon">追隨我們</a>
+        </div>
+        <div class="menu">
+            <a href="#"><img src="images/hexschool-logo.png" alt="hexschool-logo"></a>
+            <ul>
+                <li><a href="#" class="dropdown">首頁</a>
+                    <ul>
+                        <li><a href="">關於六角</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" class="dropdown">產品介紹</a>
+                    <ul>
+                        <li><a href="">金牌課程</a></li>
+                        <li><a href="">銀牌課程</a></li>
+                        <li><a href="">銅牌課程</a></li>
+                    </ul>
+                </li>
+                <li><a href="#" class="dropdown">聯絡我們</a>
+                    <ul>
+                        <li><a href="">粉絲團</a></li>
+                        <li><a href="">X</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="container">
+        <div class="swiper">
+            
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide slide1"><h2>六角學院<br>讓您奠定良好的前端基礎</h2></div>
+                <div class="swiper-slide slide2"><h2>六角學院<br>讓您奠定良好的前端基礎</h2></div>
+                <div class="swiper-slide slide3"><h2>六角學院<br>讓您奠定良好的前端基礎</h2></div>
+                ...
+              </div>
+                <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+        </div>
+        <div class="lessonGroup">
+            <ul class="lesUl">
+                <li>
+                    <!-- Lightbox -->
+                    <a href="images/html_icon.png" data-lightbox="image-1" data-title="Html5 基礎教學">
+                        <img src="images/html_icon.png" alt="html_icon-"></a>
+                    <h3>Html 5基礎教學</h3>
+                    <p>主流前端網站設計的基礎就在六角學院，在這裡不在是填鴨式教學，而是透過實際的範例，瞭解正確的網站開發流程，講師均具有業界開發經驗，讓學員學習業界主流的開發方法。</p>
+                </li>
+                <li><a href="images/rwd_icon.png" data-lightbox="image-2" data-title="響應式網站設計">
+                    <img src="images/rwd_icon.png" alt="rwd_icon"></a>
+                    <h3>響應式網站設計</h3>
+                    <p>響應式網站設計 (Responsive web design)，目前大多使用者均是以手機瀏覽的情況下，響應式網站已經是必備的。六角學院將會提供業界響應式開發方法，讓學生瞭解行動版開發技巧。</p>
+                </li>
+                <li class="jQuery">
+                    <a href="images/jquery_icon.png" data-lightbox="image-3" data-title="jQuery 實戰教學">
+                        <img src="images/jquery_icon.png" alt="jquery_icon"></a>
+                    <h3>jQuery 實戰教學</h3>
+                    <ul><p>本課程有以下特色：</p>
+                        <li>瞭解變數的使用方法</li>
+                        <li>學習並操作DOM</li>
+                        <li>學習基本數學運算方法</li>
+                        <li>套件的操作及運用</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="different">
+            <h2>線上課程及實體課程的差異</h2>
+            <table>
+                <tr>
+                    <th>項目</th>
+                    <th>六角學院線上課程</th>
+                    <th>一般線上課程</th>
+                    <th>實體課程</th>
+                </tr>
+                <tr>
+                    <td>費用</td>
+                    <td><span>較低</span></td>
+                    <td><span>較低</span></td>
+                    <td>較高</td>
+                </tr>
+                <tr>
+                    <td>學習效果</td>
+                    <td>一般</td>
+                    <td><span>較低</span></td>
+                    <td><span>很好</span></td>
+                </tr>
+                <tr>
+                    <td>Code Review</td>
+                    <td><span>有</span></td>
+                    <td>無</td>
+                    <td>不一定</td>
+                </tr>
+                <tr>
+                    <td>課程更新速度</td>
+                    <td><span>普通</span></td>
+                    <td><span>普通</span></td>
+                    <td>較慢</td>
+                </tr>
+                <tr>
+                    <td>多次學習</td>
+                    <td><span>可</span></td>
+                    <td>可</td>
+                    <td>不可</td>
+                </tr>
+                <tr>
+                    <td>字幕</td>
+                    <td><span>有</span></td>
+                    <td>不一定</td>
+                    <td>板書</td>
+                </tr>
+            </table>
+        </div>
+        <div class="resign">
+            <h2>對我們課程有興趣嗎？<br>
+                歡迎留下您的資料</h2>
+            <form action="#">
+                <div class="resignDiv">
+                    <div class="nameDiv">
+                        <label for="name"> 姓名</label>
+                        <input type="text" id="name" placeholder="六角講師">
+                        <label for="telephone"> 電話</label>
+                        <input type="text" id="telephone" placeholder="0987654321">
+                        <label for="email"> 信箱</label>
+                        <input type="text" id="email" placeholder="六角講師">
+                    </div>
+                    <div class="remarkDiv">
+                        <label for="remark">備註</label>
+                        <textarea name="remark" id="remark"></textarea>
+                    </div>
+                </div>
+                <input type="submit" value="送出" class="submit">
+            </form>
+        </div>
+    </div>
+    <div class="footer">
+        <a href="#"><img src="images/hexschool-logo.png" alt="hexschool-logo"></a>
+        <ul>
+            <li>聯絡我們：
+                <a href= "service@hexschool.com"> 
+                service@hexschool.com
+             </a>
+            </li>
+            <li>電話：<a href="tel:+0987654321">0987654321</a></li>
+        </ul>
+    </div>
+    <!-- Return to top button -->
+    <a href="#" class="returnTop"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Top_Arrow.svg/1200px-Top_Arrow.svg.png" alt="top arrow"></a>
+    <script
+    src="https://code.jquery.com/jquery-3.7.1.js"
+    integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+    crossorigin="anonymous">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="js/lightbox.js"></script>
+<script src="js/all.js"></script>
+</body>
+</html>
